@@ -21,15 +21,21 @@
         background-image: linear-gradient(to top, white, #E094D1);
     }
     #login{
-        width: 950px;
+        width: 980px;
     }
-    #Login > div#imagem{
-        float: left;
+    #login > div#imagem {
+        float: right;
         width: 50%;
         height: 100%;
     }
     #login > div#form {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    #form > h1{
+        font-size: 2em;
+    }
+    #form > p{
+        font-size: 1.2em;
     }
 }
